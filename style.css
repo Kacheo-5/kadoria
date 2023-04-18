@@ -1,0 +1,279 @@
+
+
+body 
+{
+    font-family: 'Open sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 194, 194);
+}
+/* bar de nav */
+.logo 
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 65pc;
+    cursor: pointer;
+}
+
+h1 .titre_site
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px;
+    background-color: rgb(158, 158, 158);
+    position: sticky;
+    top: 0;
+}
+div.onglet a
+{
+    display: contents;
+    flex-wrap: wrap;
+    color: black;
+
+}
+nav h1
+{
+    font-size: 20px;
+}
+nav div.onglet
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+p.link:hover
+{
+    background-color: #ddd8d8;
+    border-radius: 5px;
+    padding:none;
+}
+nav div.onglet p
+{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* nav div.onglet input */
+/* { */
+    /* margin: 8px 20px; */
+    /* padding: 15px; */
+    /* border-radius: 30px; */
+    /* border: none; */
+    /* outline: none; */
+    /* background-color: #f2f2f2;  */
+/* } */
+
+/* fin bar de nav */
+
+/* header */
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h2
+{
+    font-size: 40px;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header p 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+header button
+{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius:10px ;
+    outline: none;
+    cursor: pointer;
+}
+div.bande
+{
+    float: right;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* fin header */
+
+/* section pricipal */
+   
+.main
+{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tte les cartes */
+
+
+/* les premieres cartes */
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+.cards .card
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards .card img
+{
+    width: 350px;
+    height: 400px;
+}
+.cards .card .card_header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card .card_body p
+{
+    margin-top: 10px;
+}
+/* fin des premieres cartes */
+
+/* les deuxiemes cartes */
+
+.cards_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+.cards_1 .card_1
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards_1 .card_1 img
+{
+    width: 350px;
+    height: 400px;
+}
+.cards_1 .card_1 .card_header_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards_1 .card_1 .card_body_1 p
+{
+    margin-top: 10px;
+}
+/* fin des deuxiemes cartes */
+
+/* les troisiemes cartes */
+
+.cards_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+.cards_2 .card_2
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards_2 .card_2 img
+{
+    width: 350px;
+    height: 400px;
+}
+.cards_2 .card_2 .card_header_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards_2 .card_2 .card_body_2 p
+{
+    margin-top: 10px;
+}
+/* fin des troisiemes cartes */
+
+
+/* les boutons */
+button
+{
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* fin des boutons */
+
+/* fin de ttes les cartes */
+
+/* fin section pricipal */
+
+
+/* h5 avant footer */
+h5
+{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    max-width: 500px;
+    font-family: cursive;
+}
+h5 i
+{
+    cursor: pointer;
+}
+
+
+/* fin h5 avant footer */
+
+/* footer */
+
+footer
+{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    height: 30px;
+}
+.social_media
+{
+    display: flex;
+}
+.social_media p
+{
+    margin-right: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+}
+/* fin footer */
